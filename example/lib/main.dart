@@ -1,3 +1,4 @@
+import 'package:calculator/calculator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,9 +33,13 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+    _counter = Calculator.plusOne(_counter);
+    setState(() {});
+  }
+
+  void _decrementCounter() {
+    _counter = Calculator.minusOne(_counter);
+    setState(() {});
   }
 
   @override
@@ -57,10 +62,21 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            onPressed: _incrementCounter,
+            tooltip: 'Increment',
+            child: const Icon(Icons.remove),
+          ),
+          const SizedBox(height: 10),
+          FloatingActionButton(
+            onPressed: _decrementCounter,
+            tooltip: 'Decrement',
+            child: const Icon(Icons.add),
+          ),
+        ],
       ),
     );
   }

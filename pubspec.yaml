@@ -1,10 +1,10 @@
 name: calculator
-description: A new Flutter package project.
+description: Let's take a look at the package upload process.
 version: 0.0.1
-homepage:
+homepage: https://github.com/adbr-dev/calculator
 
 environment:
-  sdk: '>=2.18.1 <3.0.0'
+  sdk: ">=2.18.1 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:

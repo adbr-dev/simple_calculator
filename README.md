@@ -4,8 +4,7 @@
 
 Only plus and minus one is provided. This package is a good example for beginners to add package dependencies to their project.
 
-
-![](https://velog.velcdn.com/images/adbr/post/1958e383-bc8e-40b1-8f5d-61ec0c9915f7/image.gif)
+<p align="center"><img src="https://velog.velcdn.com/images/adbr/post/1958e383-bc8e-40b1-8f5d-61ec0c9915f7/image.gif" width="300px"></p>
 
 </br>
 

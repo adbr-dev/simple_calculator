@@ -1,5 +1,6 @@
 ![](https://github.com/adbr-dev/calculator/actions/workflows/dart.yml/badge.svg)
-
+![Pub Version](https://img.shields.io/pub/v/calculator)
+![DUB](https://img.shields.io/dub/l/calculator)
 
 Only plus and minus one is provided. This package is a good example for beginners to add package dependencies to their project.
 

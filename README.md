@@ -1,3 +1,6 @@
+![](https://github.com/adbr-dev/calculator/actions/workflows/dart.yml/badge.svg)
+
+
 Only plus and minus one is provided. This package is a good example for beginners to add package dependencies to their project.
 
 

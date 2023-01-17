@@ -1,7 +1,7 @@
-library calculator;
+library simple_calculator;
 
-class Calculator {
-  Calculator._();
+class SimpleCalculator {
+  SimpleCalculator._();
 
   /// Returns [value] plus 1.
   static int plusOne(int value) => value + 1;

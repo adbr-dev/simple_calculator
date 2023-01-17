@@ -1,6 +1,6 @@
-![](https://github.com/adbr-dev/calculator/actions/workflows/dart.yml/badge.svg)
-![Pub Version](https://img.shields.io/pub/v/calculator)
-![DUB](https://img.shields.io/dub/l/calculator)
+![](https://github.com/adbr-dev/simple_calculator/actions/workflows/dart.yml/badge.svg)
+![Pub Version](https://img.shields.io/pub/v/simple_calculator)
+![DUB](https://img.shields.io/dub/l/simple_calculator)
 
 Only plus and minus one is provided. This package is a good example for beginners to add package dependencies to their project.
 
@@ -9,20 +9,20 @@ Only plus and minus one is provided. This package is a good example for beginner
 </br>
 
 # Usage
-To use this plugin, add `calculator` as a dependency in your pubspec.yaml file.
+To use this plugin, add `simple_calculator` as a dependency in your pubspec.yaml file.
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
 
-  calculator: 0.0.1
+  simple_calculator: 0.0.1
 ```
 
 ### Example
 
 ```dart
-import 'package:calculator/calculator.dart';
+import 'package:simple_calculator/simple_calculator.dart';
 
 ...
 
@@ -30,12 +30,12 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    _counter = Calculator.plusOne(_counter);
+    _counter = simple_calculator.plusOne(_counter);
     setState(() {});
   }
 
   void _decrementCounter() {
-    _counter = Calculator.minusOne(_counter);
+    _counter = simple_calculator.minusOne(_counter);
     setState(() {});
   }
 

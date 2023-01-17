@@ -1,4 +1,4 @@
-import 'package:calculator/calculator.dart';
+import 'package:simple_calculator/simple_calculator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,12 +33,12 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    _counter = Calculator.plusOne(_counter);
+    _counter = SimpleCalculator.plusOne(_counter);
     setState(() {});
   }
 
   void _decrementCounter() {
-    _counter = Calculator.minusOne(_counter);
+    _counter = SimpleCalculator.minusOne(_counter);
     setState(() {});
   }
 
